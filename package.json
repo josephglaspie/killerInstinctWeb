@@ -1,0 +1,30 @@
+{
+  "name": "jensite",
+  "version": "1.0.0",
+  "description": "Jens website",
+  "main": "server.js",
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephglaspie/jensite.git"
+  },
+  "author": "jglaspie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josephglaspie/jensite/issues"
+  },
+  "homepage": "https://github.com/josephglaspie/jensite#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0",
+    "serve-favicon": "^2.4.3"
+  }
+}
